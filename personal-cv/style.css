@@ -1,0 +1,88 @@
+/* صورة البروفايل */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #6b8e23; /* زيتوني */
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* الوضع العادي */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* أبيض */
+  color: #111111; /* أسود */
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #111111; /* أسود */
+  color: #ffffff; /* أبيض */
+  padding: 25px;
+  text-align: center;
+}
+
+header button {
+  margin-top: 12px;
+  padding: 8px 18px;
+  border: none;
+  cursor: pointer;
+  background-color: #6b8e23; /* زيتوني */
+  color: white;
+  border-radius: 20px;
+}
+
+/* Sections */
+section {
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  background: #ffffff; /* أبيض */
+  border-radius: 10px;
+  border-left: 6px solid #6b8e23; /* لمسة زيتوني */
+}
+
+/* Titles */
+h2 {
+  margin-bottom: 10px;
+  color: #6b8e23; /* زيتوني */
+}
+
+/* Lists */
+ul {
+  list-style: square;
+  margin-left: 20px;
+}
+
+/* 🌙 Dark Mode */
+body.dark {
+  background-color: #0f0f0f; /* أسود غامق */
+  color: #f4f4f4; /* أبيض */
+}
+
+body.dark header {
+  background-color: #000000;
+}
+
+body.dark section {
+  background-color: #1a1a1a;
+  border-left: 6px solid #8fbc8f; /* زيتوني فاتح */
+}
+
+body.dark h2 {
+  color: #8fbc8f;
+}
+
+body.dark header button {
+  background-color: #8fbc8f;
+  color: #000;
+}
